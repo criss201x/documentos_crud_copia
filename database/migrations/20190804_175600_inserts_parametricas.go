@@ -44,6 +44,7 @@ func (m *InsertsParametricas_20190804_175600) Up() {
 // Reverse the migrations
 func (m *InsertsParametricas_20190804_175600) Down() {
 	// use m.SQL("DROP TABLE ...") to reverse schema update
+		// use m.SQL("DROP TABLE ...") to reverse schema update
 	file, err := ioutil.ReadFile("../scripts/20190804_175600_inserts_parametricas.down.sql")
 
 	if err != nil {

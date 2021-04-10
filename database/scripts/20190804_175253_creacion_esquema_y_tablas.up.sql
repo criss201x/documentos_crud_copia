@@ -47,6 +47,7 @@ COMMENT ON CONSTRAINT pk_documento ON documento.documento  IS 'Llave primaria de
 
 -- object: documento.tipo_documento | type: TABLE --
 -- DROP TABLE IF EXISTS documento.tipo_documento CASCADE;
+-- DROP TABLE IF EXISTS documento.tipo_documento CASCADE;
 CREATE TABLE documento.tipo_documento (
 	id serial NOT NULL,
 	nombre character varying(50) NOT NULL,
